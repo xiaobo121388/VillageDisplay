@@ -1,0 +1,8 @@
+{
+	"format_version": "0.0.1",
+	"name": "village",
+	"description": "搜寻村庄边界",
+	"permission_level": "admin",
+	"args": [
+	]
+}

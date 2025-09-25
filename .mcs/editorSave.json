@@ -1,0 +1,144 @@
+{
+    "Addon": {
+        "EnchantSetting": {
+            "amplifier": 1
+        },
+        "PackResourceSortData": {
+            "1_village_view:helper": {
+                "createTime": 1754638424.745167,
+                "modifyTime": 1754804543.7831755
+            }
+        },
+        "PlayerEffectSetting": {
+            "amplifier": 1,
+            "duration": 10
+        },
+        "PresetInstanceTreeData": [
+
+        ]
+    },
+    "UI": {
+        "customPrefabGroupExpand": [
+            "village_view"
+        ],
+        "expandData": {
+            "prefab": {
+                "village_view.fast": [
+                    "/netease_prefab_screen"
+                ],
+                "village_view.mid": [
+                    "/netease_prefab_screen"
+                ],
+                "village_view.slow": [
+                    "/netease_prefab_screen"
+                ]
+            },
+            "screen": {
+                "D:\\MCStudioDownload\\work\\467359395@qq.com\\Cpp\\AddOn\\b30b0ffd37954dee93fa1beee7bf1dda\\resource_pack_75dmDZFS\\ui\\village_view.json": [
+                    "/main",
+                    "/main/image",
+                    "/main/image/title",
+                    "/main/image/switch_toggle/this_toggle",
+                    "/main/image/switch_toggle/this_toggle/unchecked",
+                    "/main/image/switch_toggle/this_toggle/unchecked/button_panel",
+                    "/main/image/switch_toggle/this_toggle/unchecked/button_panel/button_content",
+                    "/main/image/switch_toggle/this_toggle/unchecked/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle/this_toggle/checked",
+                    "/main/image/switch_toggle/this_toggle/checked/button_panel",
+                    "/main/image/switch_toggle/this_toggle/checked/button_panel/button_content",
+                    "/main/image/switch_toggle/this_toggle/checked/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle/this_toggle/unchecked_hover",
+                    "/main/image/switch_toggle/this_toggle/unchecked_hover/button_panel",
+                    "/main/image/switch_toggle/this_toggle/unchecked_hover/button_panel/button_content",
+                    "/main/image/switch_toggle/this_toggle/unchecked_hover/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle/this_toggle/checked_hover",
+                    "/main/image/switch_toggle/this_toggle/checked_hover/button_panel",
+                    "/main/image/switch_toggle/this_toggle/checked_hover/button_panel/button_content",
+                    "/main/image/switch_toggle/this_toggle/checked_hover/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle/this_toggle/unchecked_locked",
+                    "/main/image/switch_toggle/this_toggle/unchecked_locked/button_panel",
+                    "/main/image/switch_toggle/this_toggle/unchecked_locked/button_panel/button_content",
+                    "/main/image/switch_toggle/this_toggle/unchecked_locked/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle/this_toggle/checked_locked",
+                    "/main/image/switch_toggle/this_toggle/checked_locked/button_panel",
+                    "/main/image/switch_toggle/this_toggle/checked_locked/button_panel/button_content",
+                    "/main/image/switch_toggle/this_toggle/checked_locked/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle/this_toggle/unchecked_locked_hover",
+                    "/main/image/switch_toggle/this_toggle/unchecked_locked_hover/button_panel",
+                    "/main/image/switch_toggle/this_toggle/unchecked_locked_hover/button_panel/button_content",
+                    "/main/image/switch_toggle/this_toggle/unchecked_locked_hover/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle/this_toggle/checked_locked_hover",
+                    "/main/image/switch_toggle/this_toggle/checked_locked_hover/button_panel",
+                    "/main/image/switch_toggle/this_toggle/checked_locked_hover/button_panel/button_content",
+                    "/main/image/switch_toggle/this_toggle/checked_locked_hover/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle(0)/this_toggle",
+                    "/main/image/switch_toggle(0)/this_toggle/unchecked",
+                    "/main/image/switch_toggle(0)/this_toggle/unchecked/button_panel",
+                    "/main/image/switch_toggle(0)/this_toggle/unchecked/button_panel/button_content",
+                    "/main/image/switch_toggle(0)/this_toggle/unchecked/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle(0)/this_toggle/checked",
+                    "/main/image/switch_toggle(0)/this_toggle/checked/button_panel",
+                    "/main/image/switch_toggle(0)/this_toggle/checked/button_panel/button_content",
+                    "/main/image/switch_toggle(0)/this_toggle/checked/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle(0)/this_toggle/unchecked_hover",
+                    "/main/image/switch_toggle(0)/this_toggle/unchecked_hover/button_panel",
+                    "/main/image/switch_toggle(0)/this_toggle/unchecked_hover/button_panel/button_content",
+                    "/main/image/switch_toggle(0)/this_toggle/unchecked_hover/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle(0)/this_toggle/checked_hover",
+                    "/main/image/switch_toggle(0)/this_toggle/checked_hover/button_panel",
+                    "/main/image/switch_toggle(0)/this_toggle/checked_hover/button_panel/button_content",
+                    "/main/image/switch_toggle(0)/this_toggle/checked_hover/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle(0)/this_toggle/unchecked_locked",
+                    "/main/image/switch_toggle(0)/this_toggle/unchecked_locked/button_panel",
+                    "/main/image/switch_toggle(0)/this_toggle/unchecked_locked/button_panel/button_content",
+                    "/main/image/switch_toggle(0)/this_toggle/unchecked_locked/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle(0)/this_toggle/checked_locked",
+                    "/main/image/switch_toggle(0)/this_toggle/checked_locked/button_panel",
+                    "/main/image/switch_toggle(0)/this_toggle/checked_locked/button_panel/button_content",
+                    "/main/image/switch_toggle(0)/this_toggle/checked_locked/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle(0)/this_toggle/unchecked_locked_hover",
+                    "/main/image/switch_toggle(0)/this_toggle/unchecked_locked_hover/button_panel",
+                    "/main/image/switch_toggle(0)/this_toggle/unchecked_locked_hover/button_panel/button_content",
+                    "/main/image/switch_toggle(0)/this_toggle/unchecked_locked_hover/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle(0)/this_toggle/checked_locked_hover",
+                    "/main/image/switch_toggle(0)/this_toggle/checked_locked_hover/button_panel",
+                    "/main/image/switch_toggle(0)/this_toggle/checked_locked_hover/button_panel/button_content",
+                    "/main/image/switch_toggle(0)/this_toggle/checked_locked_hover/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle(1)/this_toggle",
+                    "/main/image/switch_toggle(1)/this_toggle/unchecked",
+                    "/main/image/switch_toggle(1)/this_toggle/unchecked/button_panel",
+                    "/main/image/switch_toggle(1)/this_toggle/unchecked/button_panel/button_content",
+                    "/main/image/switch_toggle(1)/this_toggle/unchecked/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle(1)/this_toggle/checked",
+                    "/main/image/switch_toggle(1)/this_toggle/checked/button_panel",
+                    "/main/image/switch_toggle(1)/this_toggle/checked/button_panel/button_content",
+                    "/main/image/switch_toggle(1)/this_toggle/checked/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle(1)/this_toggle/unchecked_hover",
+                    "/main/image/switch_toggle(1)/this_toggle/unchecked_hover/button_panel",
+                    "/main/image/switch_toggle(1)/this_toggle/unchecked_hover/button_panel/button_content",
+                    "/main/image/switch_toggle(1)/this_toggle/unchecked_hover/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle(1)/this_toggle/checked_hover",
+                    "/main/image/switch_toggle(1)/this_toggle/checked_hover/button_panel",
+                    "/main/image/switch_toggle(1)/this_toggle/checked_hover/button_panel/button_content",
+                    "/main/image/switch_toggle(1)/this_toggle/checked_hover/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle(1)/this_toggle/unchecked_locked",
+                    "/main/image/switch_toggle(1)/this_toggle/unchecked_locked/button_panel",
+                    "/main/image/switch_toggle(1)/this_toggle/unchecked_locked/button_panel/button_content",
+                    "/main/image/switch_toggle(1)/this_toggle/unchecked_locked/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle(1)/this_toggle/checked_locked",
+                    "/main/image/switch_toggle(1)/this_toggle/checked_locked/button_panel",
+                    "/main/image/switch_toggle(1)/this_toggle/checked_locked/button_panel/button_content",
+                    "/main/image/switch_toggle(1)/this_toggle/checked_locked/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle(1)/this_toggle/unchecked_locked_hover",
+                    "/main/image/switch_toggle(1)/this_toggle/unchecked_locked_hover/button_panel",
+                    "/main/image/switch_toggle(1)/this_toggle/unchecked_locked_hover/button_panel/button_content",
+                    "/main/image/switch_toggle(1)/this_toggle/unchecked_locked_hover/button_panel/button_content/common_buttons.button_content_panel",
+                    "/main/image/switch_toggle(1)/this_toggle/checked_locked_hover",
+                    "/main/image/switch_toggle(1)/this_toggle/checked_locked_hover/button_panel",
+                    "/main/image/switch_toggle(1)/this_toggle/checked_locked_hover/button_panel/button_content",
+                    "/main/image/switch_toggle(1)/this_toggle/checked_locked_hover/button_panel/button_content/common_buttons.button_content_panel"
+                ]
+            }
+        }
+    }
+}

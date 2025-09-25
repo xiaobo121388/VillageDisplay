@@ -1,0 +1,13 @@
+{
+    "Arena.Component.Namespace": "village_view",
+    "FirstTabSetting": 0,
+    "ShortItemSettings": [
+        "resource_pack_75dmDZFS\\ui",
+        "resource_pack_75dmDZFS\\effects",
+        "resource_pack_75dmDZFS\\textures"
+    ],
+    "Uluru.autoLayerDict": {
+
+    },
+    "Uluru.checkSuspectOldUI": true
+}

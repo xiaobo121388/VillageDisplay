@@ -1,0 +1,84 @@
+{
+  "format_version": "1.18.20",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "village_view:helper",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "xiaobo:in_village": {},
+      "xiaobo:not_in_village": {}
+    },
+    "components": {
+      "minecraft:health": {
+        "value": 10000,
+        "max": 10000
+      },
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": false,
+        "avoid_sun": false,
+        "avoid_water": false
+      },
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_in_village",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "xiaobo:in_village"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_in_village",
+                  "subject": "self",
+                  "value": false
+                }
+              ]
+            },
+            "event": "xiaobo:not_in_village"
+          }
+        ]
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:physics": { 
+				"has_gravity": false, //Optional, allows the entity to not be affected by gravity or water
+				"has_collision": false
+			}
+    },
+    "events": {
+      "xiaobo:in_village": {
+        "add": {
+          "component_groups": [
+            "xiaobo:in_village"
+          ]
+        }
+      },
+      "xiaobo:not_in_village": {
+        "add": {
+          "component_groups": [
+            "xiaobo:not_in_village"
+          ]
+        }
+      }
+    }
+  }
+}
