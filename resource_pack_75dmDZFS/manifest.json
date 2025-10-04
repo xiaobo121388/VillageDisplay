@@ -1,27 +1,27 @@
 {
-    "format_version": 1,
-    "header": {
-        "min_engine_version": [
-            1,
-            18,
-            0
-        ],
-        "uuid": "8e9b9a62-0efc-48ed-8990-bce6921c29af",
-        "version": [
-            0,
-            0,
-            1
-        ]
-    },
-    "modules": [
-        {
-            "type": "resources",
-            "uuid": "51ffb731-423b-482e-8a09-2afcff5df853",
-            "version": [
-                0,
-                0,
-                1
-            ]
-        }
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "51ffb731-423b-482e-8a09-2afcff5df853",
+      "version": [
+        0,
+        0,
+        2
+      ]
+    }
+  ],
+  "header": {
+    "uuid": "8e9b9a62-0efc-48ed-8990-bce6921c29af",
+    "version": [
+      0,
+      0,
+      2
+    ],
+    "min_engine_version": [
+      1,
+      18,
+      0
     ]
+  },
+  "format_version": 1
 }
